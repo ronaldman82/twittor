@@ -1,4 +1,7 @@
 
+//var url = window.location.ref;
+//var swLocation='/twittor/sw.js';
+
 if(navigator.serviceWorker){
     navigator.serviceWorker.register('./sw.js');
 }
